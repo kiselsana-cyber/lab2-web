@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Контакты и карта проезда кофейни «Зерно».">
+    <title>Контакты – Кофейня «Зерно»</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Логотип кофейни «Зерно»" width="160" height="160">
+            <div>
+                <h1>Кофейня-обжарочная «Зерно»</h1>
+                <p class="slogan">Свежеобжаренный кофе с доставкой по Москве</p>
+            </div>
+        </div>
+    </header>
+    <nav aria-label="Главное меню">
+        <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О компании</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="price.html">Прайс-лист</a></li>
+                <li><a href="delivery.html">Доставка и оплата</a></li>
+                <li><a href="contacts.html" class="active" aria-current="page">Контакты</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Контакты</h2>
+            <ul>
+                <li>Адрес: Москва, Тверская улица, 10</li>
+                <li>Телефон: <a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+                <li>E-mail: <a href="mailto:info@zerno-coffee.example">info@zerno-coffee.example</a></li>
+                <li>Режим работы: ежедневно, 8:00–21:00</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Как нас найти</h2>
+            <p>Адрес: Москва, Тверская улица, 10. Ближайшее метро – «Охотный ряд», пять минут пешком. Работаем ежедневно с 8:00 до 21:00.</p>
+            <iframe class="map" title="Карта проезда: Москва, Тверская улица, 10" src="https://maps.google.com/maps?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D0%A2%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%2C%2010&amp;z=16&amp;output=embed" loading="lazy"></iframe>
+        </section>
+        <section>
+            <h2 id="order">Форма обратной связи и заказа</h2>
+            <form action="mailto:info@zerno-coffee.example" method="post" enctype="text/plain">
+                <label for="name">Ваше имя</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Электронная почта</label>
+                <input type="email" id="email" name="email" required>
+                <label for="msg">Сообщение или состав заказа</label>
+                <textarea id="msg" name="message" rows="5" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>Кофейня-обжарочная «Зерно» · Москва, Тверская улица, 10 · тел. <a href="tel:+74951234567">+7 (495) 123-45-67</a> · <a href="mailto:info@zerno-coffee.example">info@zerno-coffee.example</a></p>
+        <p>Страница обновлена: <time datetime="2026-11-01">1 ноября 2026</time> · Статус документа: опубликован · <a href="sitemap.html">Карта сайта</a></p>
+        <p>&copy; 2026 Кофейня-обжарочная «Зерно». Все права защищены.</p>
+    </footer>
+</body>
+</html>
